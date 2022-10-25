@@ -10,10 +10,9 @@ You need to have npm installed on your local machine.
 
 clone the repo
 
-https://github.com/david63011/todo-Project.git
-
+https://github.com/david63011/Leaderboard.git
 # Live app
-https://david63011.github.io/todo-Project/dist/
+not yet...
 
 # Install
 
