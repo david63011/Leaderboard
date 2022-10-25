@@ -4,7 +4,7 @@
 /* eslint-disable no-use-before-define */
 /* eslint-disable max-classes-per-file */
 import './styles/main.scss';
-import { saveScore } from './modules/save.js';
+import saveScore from './modules/save.js';
 import { renderScores } from './modules/render.js';
 
 const form = document.querySelector('.form');
