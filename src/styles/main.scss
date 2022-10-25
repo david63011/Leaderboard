@@ -7,16 +7,16 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 body {
   margin: 0;
   height: 100vh;
-  background-color: #f5f5f5;  
- }
+  background-color: #f5f5f5;
+}
 
 li {
   list-style: none;
   padding: 10px 20px;
 }
 
-.btn-submit{
-  background-color: #4CAF50;
+.btn-submit {
+  background-color: #4caf50;
   border: none;
   color: white;
   padding: 10px 15px;
@@ -30,24 +30,24 @@ li {
   margin-left: 21.5em;
 }
 
-.result-header{
+.result-header {
   display: flex;
 }
 
-.refresh-button{
-  background-color: #4CAF50;
+.refresh-button {
+  background-color: #4caf50;
   cursor: pointer;
   height: 50%;
   align-self: center;
   margin-left: 2em;
 }
 
-.refresh-button:hover{
-  background-color: #4CAF50;
+.refresh-button:hover {
+  background-color: #4caf50;
   color: white;
-  }
+}
 
-.btn-submit:hover{
+.btn-submit:hover {
   background-color: #45a049;
 }
 
@@ -58,14 +58,14 @@ li {
   margin-left: 2em;
 }
 
-.result-list{
+.result-list {
   padding: 0;
   list-style-type: none;
   border: 4px solid black;
   width: 100%;
 }
 
-.result-list li{
+.result-list li {
   border-bottom: 1px solid black;
   padding: 10px 20px;
   display: flex;
@@ -77,23 +77,23 @@ li {
   background-color: #eae8e8;
 }
 
-.fullname{
+.fullname {
   font-size: 15px;
   font-weight: bold;
   border: 3px solid black;
 }
 
-.thescore{
+.thescore {
   font-size: 15px;
   font-weight: bold;
   border: 3px solid black;
 }
 
-.leader{
+.leader {
   margin-left: 1em;
 }
 
-.score-form{
+.score-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
