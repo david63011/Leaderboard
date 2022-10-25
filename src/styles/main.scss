@@ -8,6 +8,12 @@ body {
   margin: 0;
   height: 100vh;
   background-color: #f5f5f5;
+  background: rgb(205, 196, 196);
+  background: linear-gradient(
+    90deg,
+    rgba(205, 196, 196, 1) 0%,
+    rgba(29, 40, 40, 0.8578781854538691) 78%
+  );
 }
 
 li {
@@ -17,21 +23,28 @@ li {
 
 .btn-submit {
   background-color: #4caf50;
-  border: none;
-  color: white;
+  color: black;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   margin-top: 1em;
-  margin-left: 21.5em;
+  margin-left: 21em;
+  border-color: black;
+  border-style: solid;
+}
+
+.btn-submit:hover {
+  background-color: #4caf49;
+  color: white;
 }
 
 .result-header {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .refresh-button {
@@ -43,8 +56,8 @@ li {
 }
 
 .refresh-button:hover {
-  background-color: #4caf50;
   color: white;
+  background-color: #45a049;
 }
 
 .btn-submit:hover {
@@ -90,7 +103,7 @@ li {
 }
 
 .leader {
-  margin-left: 1em;
+  align-items: center;
 }
 
 .score-form {
@@ -98,4 +111,11 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
 }
