@@ -2,7 +2,7 @@
 /* eslint-disable import/prefer-default-export */
 import './styles/main.scss';
 import saveScore from './modules/save';
-import { renderScores } from './modules/render';
+import renderScores from './modules/render';
 
 const form = document.querySelector('.form');
 export const scores = JSON.parse(localStorage.getItem('scores')) || [];

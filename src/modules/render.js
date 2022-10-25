@@ -1,8 +1,7 @@
-/* eslint-disable import/prefer-default-export */
 /* eslint-disable import/no-cycle */
 import { scores } from '../index';
 
-export function renderScores() {
+function renderScores() {
   const scoreList = document.querySelector('.result-list');
   scoreList.innerHTML = '';
   scores.forEach((score) => {
@@ -12,3 +11,5 @@ export function renderScores() {
   });
   localStorage.setItem('scores', JSON.stringify(scores));
 }
+
+export default renderScores;
