@@ -2,18 +2,20 @@
 /* eslint-disable import/prefer-default-export */
 import './styles/main.scss';
 import saveScore from './modules/save';
-import renderScores from './modules/render';
+import getScores from './modules/getscores';
 
 const form = document.querySelector('.form');
-export const scores = JSON.parse(localStorage.getItem('scores')) || [];
-
+const refresh = document.querySelector('.refresh-button');
+export const scores = [];
 /// first render
-renderScores();
-
+getScores();
 /// event listener
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   saveScore();
-  renderScores();
-  localStorage.setItem('scores', JSON.stringify(scores));
+});
+
+refresh.addEventListener('click', (e) => {
+  e.preventDefault();
+  getScores();
 });
