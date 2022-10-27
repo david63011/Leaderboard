@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 import renderScores from './render';
 
 async function getScores() {
